@@ -10,7 +10,7 @@ body {
     width: 50%;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 }
 
 #medium_img {
@@ -21,4 +21,11 @@ body {
 #small_img {
     width: 8px;
     height: 8px;
+}
+
+#arrow {
+    margin-top: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
