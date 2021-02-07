@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Reenie_Beanie;
+    src: url(./resources/fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf);
+}
+
+@font-face {
+    font-family: Harry_Potter;
+    src: url(./resources/fonts/harry-p-font/HarryP-MVZ6w.ttf);
+}
+
+body {
+    background: url(./resources/images/harry_potter_wallpaper__gryffindor_stripes_by_theladyavatar_d5z2f66-fullview.jpg);
+}
+
+#lion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arrow {
+    position: absolute;
+    left: 90%;
+    top: 90%;
+}
+
+h1 {
+    font-family: Harry_Potter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(251, 255, 0);
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#title {
+    transform: rotate(-25.99deg);
+    position: absolute;
+    left: -8px;
+    top: 20px;
+}
+
+#patronus_div {
+    position: absolute;
+    width: 432px;
+    height: 384px;
+    left: 65%;
+    /* right: 20px; */
+    top: 0px;
+}
+
+#patronus_img {
+    width: 100%;
+}
+
+#wands_div {
+    position: absolute;
+    width: 654px;
+    height: 412.45px;
+    left: 39px;
+    top: 254px;
+}
+
+#wand_img {
+    transform: rotate(-115.19deg);
+}
+
+#wand_img:hover {
+    transform: scale(1.1);
+  }
+
+#wand_txt {
+    position: absolute;
+    width: 403px;
+    height: 192px;
+    left: 290px;
+    top: 85px;
+}
+
+.descriptions {
+    font-family: Reenie_Beanie;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-shadow: 0px 4px 4px #250F02;
+}
+
+#me {
+    position: absolute;
+    width: 398px;
+    height: 398px;
+    left: 494px;
+    top: 599px;
+}
+
+#images_div {
+    width: 90%;
+    margin: 0 auto;
+    height: 1690px;
+    margin-top: 1270px;
+}
+
+#sub-head {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    top: 1040px;
+    text-align: center;
+}
+
+.grid_images {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    height: 100%;
+    row-gap: 5px;
+}
+
+.grid_img {
+    width: 99%;
+}
+
+#notes {
+    position: absolute;
+    width: 90%;
+    height: 455px;
+    left: 75px;
+    top: 3000px;
+}
+
+#top {
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 0 px; */
+    font-family: Reenie_Beanie;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    /* border: 1px solid #FF0000; */
+    text-shadow: 0px 4px 4px #FAFF00;
+}
+
+#bottom {
+    /* background-color: rgb(0, 0, 0); */
+    /* margin-top: 0 px; */
+    font-family: Reenie_Beanie;
+    font-size: 40px;
+    /* color: white; */
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 0, 0); */
+    /* border: 1px solid #FF0000; */
+    text-shadow: 2px 4px 4px #FAFF00;
+}
+
+img:hover {
+    transform: scale(1.1);
+  }
