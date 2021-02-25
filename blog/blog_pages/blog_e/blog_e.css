@@ -123,3 +123,10 @@ p {
     left: 371px;
     background: #F7F1E0;
 }
+
+#practice {
+    margin-top: 900px;
+     /* background-color: green; */
+     width: vw;
+     height: 300px;
+}
