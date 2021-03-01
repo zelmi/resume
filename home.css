@@ -213,7 +213,7 @@ h2 {
 }
 
 .dots {
-	background-color: gray;
+	/* background-color: gray; */
 	height: 100px;
 	margin-top: 5%;
 }
