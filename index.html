@@ -1,22 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>ART3001 Workshop</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"
+        integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ=="
+        crossorigin="anonymous"></script>
+    <title>Resume</title>
 </head>
+
 <body>
-    <header>
-        <h1>Home</h1>
-        <nav>
-            <a href="blog/index.html">Blog</a>
-            <a href="exercises/index.html">Exercises</a>
-            <a href="projects/index.html">Projects</a>
-            <br>
-            <a href="home.html">New home page (In progress)</a>
-        </nav>
-    </header>
-    <p>
-        this is a sentence
-    </p>
-    <footer>Copyright zehur</footer>
+    <main class="scroll-container">
+        <!-- first section  -->
+        <section id="intro">
+            <div id="left">
+                <nav>
+                    <a class="nav-elements" href="exercises/index.html">Exercises</a>
+                    <a class="nav-elements" href="projects/index.html">Projects</a>
+                    <a class="nav-elements" href="blog/index.html">Blogs</a>
+                </nav>
+                <h1>Zehur Elmi</h1>
+                <div class="css-typing">
+                    <h2>Developer.</h2>
+                    <h2>Designer.</h2>
+                </div>
+            </div>
+            <div id="image_grid">
+                <img id="me" src="assets/images/myMainpic.gif" alt="">
+            </div>
+        </section>
+        <!-- second section  -->
+        <section>
+            <div id="top2">
+                <div class="dots" id="about-me-dots"></div>
+                <div class="rotating_square">
+                    <h3>About Me</h3>
+                </div>
+            </div>
+            <div id="about-me">
+                <div class="particles" id="particles-left"></div>
+                <div id="middle-about_me">
+                    <div class="info">
+                        <h3>Education</h3>
+                        <h4 style="margin-bottom: 0;">Computer & information science</h4>
+                        <h4 style="margin-top: 0;">with a design focus</h4>
+                        <div>
+                            <!--  -->
+                            <h4> <span><img id="pin" src="assets/images/pin.png" alt=""></span> THE OHIO STATE
+                                UNIVERSITY</h4>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>Main Focus</h3>
+                        <h4 style="margin-bottom: 0;">Software engineering</h4>
+                        <h4 style="margin-top: 0; margin-bottom: 0;">Web development</h4>
+                        <h4 style="margin-bottom: 0; margin-top: 0;">UX/UI design</h4>
+                        <h4 style="margin-top: 0;">Native mobile development</h4>
+                    </div>
+                    <div class="info">
+                        <h3>Goals</h3>
+                        <h4 style="margin-bottom: 0;">Lorem ipsum dolor sit amet,</h4>
+                        <h4 style="margin-top: 0; margin-bottom: 0;">consectetur adipiscing elit, sed</h4>
+                        <h4 style="margin-bottom: 0; margin-top: 0;">do eiusmod tempor incididunt ut</h4>
+                        <h4 style="margin-top: 0;">labore et.<span class="blinking-cursor">|</span></h4>
+                    </div>
+                </div>
+                <div class="particles" id="particles-right"></div>
+
+            </div>
+        </section>
+        <!-- third section  -->
+        <section id="experience">
+            <div id="top3">
+                <div class="dots" id="experience-dots"></div>
+                <div class="rotating_square">
+                    <h3>Experience</h3>
+                </div>
+            </div>
+            <div class="section-title">
+                <h3 class="purple-background">Internships</h3>
+            </div>
+            <div class="four-grid">
+                <div>
+                    <p class="info-title">Software Engineer</p>
+                    <p style="margin-bottom: 0;">JP Morgan Chase & Co.</p>
+                    <p style="margin-top: 0;">Summer 2021</p>
+                    <p>Columbus OH</p>
+                </div>
+                <div>
+                    <p class="info-title">Software Engineer</p>
+                    <p style="margin-bottom: 0;">JP Morgan Chase & Co.</p>
+                    <p style="margin-top: 0;">Summer 2020</p>
+                    <p>Columbus OH</p>
+                </div>
+                <div>
+                    <p class="info-title">Front-End Web Developer</p>
+                    <p style="margin-bottom: 0;">Sommes54</p>
+                    <p style="margin-top: 0;">Summer 2019</p>
+                    <p>Austin TX</p>
+                </div>
+                <div>
+                    <p class="info-title">Software Engineer</p>
+                    <p style="margin-bottom: 0;">Open Learning Exchange</p>
+                    <p style="margin-top: 0;">Summer 2019</p>
+                    <p>Virtual</p>
+                </div>
+            </div>
+            <div class="section-title">
+                <h3 class="purple-background">Skills</h3>
+            </div>
+            <div class="three-grid">
+                <div>
+                    <p class="info-title">Programming</p>
+                    <p style="margin-bottom: 0;">HTML</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">CSS</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Git/GitHub</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Bootstrap Framework</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Javascript</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Java</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Ruby</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Rails</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">X86-64 assembly language</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Gdb debugger</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">C</p>
+                </div>
+                <div>
+                    <p class="info-title">Design</p>
+                    <p style="margin-bottom: 0;">Figma</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Design Thinking</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Photoshop</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Adobe Illustrator</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Wireframes</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Mockups</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Prototypes</p>
+                </div>
+                <div>
+                    <p class="info-title">Soft Skills</p>
+                    <p style="margin-bottom: 0;">Team work</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Persistance</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Reliability</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Quick learning</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Punctuality</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Customer Service</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Communication</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Writing</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Sales</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Microsoft Office</p>
+                </div>
+            </div>
+        </section>
+        <!-- fourth section  -->
+        <section id="more">
+            <div id="top4">
+                <div class="dots" id="more-dots"></div>
+                <div class="rotating_square">
+                    <h3>More</h3>
+                </div>
+            </div>
+            <div class="section-title">
+                <h3 style="margin: 0;" class="purple-background">Projects</h3>
+            </div>
+
+            <div class="four-grid">
+                <div>
+                    <p class="info-title">Sommes54 Website</p>
+                    <p>React, HTML, CSS and Bootstrap</p>
+                    <p>Team of 2</p>
+                </div>
+                <div>
+                    <p class="info-title">Game of Set 1</p>
+                    <p>Ruby</p>
+                    <p>Team of 4</p>
+                </div>
+                <div>
+                    <p class="info-title">Game of Set 2</p>
+                    <p>HTML, CSS, Javascript</p>
+                    <p>Team of 4</p>
+                </div>
+                <div>
+                    <p class="info-title">Web Scraping</p>
+                    <p>Ruby, Mechanize, Nokogiri</p>
+                    <p>Team of 4</p>
+                </div>
+            </div>
+            <div class="three-grid">
+                <div>
+                    <p class="info-title">Peer Evaluation Tool</p>
+                    <p>Ruby on Rails</p>
+                    <p>Team of 4</p>
+                </div>
+                <div>
+                    <p class="info-title">Flace App</p>
+                    <p>HTML,CSS and Javascript</p>
+                    <p>Team of 4</p>
+                </div>
+                <div>
+                    <p class="info-title">This Website</p>
+                    <p>HTML,CSS and Javascript</p>
+                    <p>Team of 1</p>
+                </div>
+            </div>
+            <div class="section-title">
+                <h3 style="margin: 0;" class="purple-background">More Experiences</h3>
+            </div>
+
+            <div class="four-grid">
+                <div>
+                    <p class="info-title">Student Analyst</p>
+                    <p>Ohio State</p>
+                    <p>Nov. 2020 - Present</p>
+                </div>
+                <div>
+                    <p class="info-title">Amazon Associate</p>
+                    <p>Amazon Fullfilment Center</p>
+                    <p>Aug. 2019 - Sep. 2020</p>
+                </div>
+                <div>
+                    <p class="info-title">Brand Sales Ambassador</p>
+                    <p>Market Source Inc.</p>
+                    <p>Mar. 2018 - Jun. 2018</p>
+                </div>
+                <div>
+                    <p class="info-title">Assistant Director</p>
+                    <p>Iqra Learning Center</p>
+                    <p>Aug. 2016 - May 2018</p>
+                </div>
+            </div>
+            <div class="four-grid">
+                <div>
+                    <p class="info-title">Peer Mentor</p>
+                    <p>Ohio State Ladies of Leadership</p>
+                    <p>Aug. 2019 - Jan. 2021</p>
+                </div>
+                <div>
+                    <p class="info-title">Innovation Commitee</p>
+                    <p>Ohio State ACM-W</p>
+                    <p>Aug. 2019 - Apr. 2020</p>
+                </div>
+                <div>
+                    <p class="info-title">Community Ambassador</p>
+                    <p>Students of Linkedin</p>
+                    <p>Aug. 2018 - Dec. 2018/p>
+                </div>
+                <div>
+                    <p class="info-title">Floor Faculty Facilitator</p>
+                    <p>Center of Science and Industry</p>
+                    <p>Summer 2018</p>
+                </div>
+            </div>
+        </section>
+        <!-- fifth section -->
+        <section id="final_section">
+            <div id="top5"></div>
+            <div id="middle_contact">
+                <div id="left_anim"></div>
+                <div id="contact_form">
+                    <h3>Contact Me</h3>
+                    <div class="container">
+                        <form action="">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name">
+                            <textarea id="subject" name="subject" placeholder="Your message"
+                                style="height:200px"></textarea>
+                            <div id="submit-area">
+                                <input id="submit-button" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="contact_icons">
+                    <div class="icon_div">
+                        <a href=""><img src="/assets/images/icons8-email-64-3.png" alt=""
+                                class="contact-icon"> </a>
+                    </div>
+                    <div class="icon_div">
+                        <a href="www.linkedin.com/in/zehur-elmi"> <img src="/assets/images/icons8-linkedin-100.png" alt=""
+                                class="contact-icon"> </a>
+                    </div>
+                    <div class="icon_div">
+                        <a href="https://github.com/zelmi?tab=overview&from=2021-03-01&to=2021-03-01"> <img src="/assets/images/icons8-github-96-3.png" alt=""
+                                class="contact-icon"> </a>
+                    </div>
+                </div>
+                <div id="right_anim"></div>
+            </div>
+            <div id="bottom_anim"></div>
+        </section>
+    </main>
+    <script src="./assets/javascript/p5_canvases.js"></script>
 </body>
+
 </html>
