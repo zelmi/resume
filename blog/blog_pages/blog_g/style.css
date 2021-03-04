@@ -19,7 +19,6 @@ video {
   
   main {
     width: 80vw;
-/*     left: 10%; */
     margin: 0 auto;
     height: 90vh;
     overflow: auto;
@@ -30,5 +29,9 @@ video {
   }
 
   figcaption {
-      font-size: 10px;
+      font-size: 0.5rem;
   }
+
+  img {
+    width: 50%;
+}
