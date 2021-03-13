@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Blog H</title>
+    <script language="javascript" type="text/javascript">
+        function playSound(soundfile) {
+            document.getElementById("dummy").innerHTML =
+                "<embed src=\"" + soundfile + "\" hidden=\"true\" autostart=\"true\" loop=\"true\" />";
+        }
+    </script>
+</head>
+
+<body>
+    <section id="section01" class="demo">
+        <span id="dummy"></span>
+        <h1>blog h</h1>
+        <h2>trying out codepen</h2>
+        <a href="#section02" onclick="playSound('assets/midnight-ride-01a.mp3');"> <span><img
+                    src="./assets/icons8-double-down-80.png" alt=""></span> Scroll</a>
+
+    </section>
+    <section id="section02" class="demo">
+        <h2>Can you hear anything?</h2>
+        <p>You should be able to by now, if it worked (you have to click on the scroll button).</p>
+        <div>
+            <ul class="c-rainbow">
+                <li class="c-rainbow__layer c-rainbow__layer--white">Btw,isn't this cool?</li>
+                <li class="c-rainbow__layer c-rainbow__layer--orange">Btw,isn't this cool?</li>
+                <li class="c-rainbow__layer c-rainbow__layer--red">Btw,isn't this cool?</li>
+                <li class="c-rainbow__layer c-rainbow__layer--violet">Btw,isn't this cool?</li>
+                <li class="c-rainbow__layer c-rainbow__layer--blue">Btw,isn't this cool?</li>
+                <li class="c-rainbow__layer c-rainbow__layer--green">Btw,isn't this cool?</li>
+                <li class="c-rainbow__layer c-rainbow__layer--yellow">Btw,isn't this cool?</li>
+            </ul>
+        </div>
+        <p>Going through codepen these last couple of days,I realize I HAVE to learn CSS animation.This stuff is
+            amazing! Im currently looking for a good cohesive online course that can get me going. </p>
+        <p>I've actually spent so much time on this blog trying out different codepen examples but hardly any worked. I need to understand a whole lot  more about JS before I can easily use most things there.</p>
+        <div id="myHolder">
+            <div id="sceneTwo">
+                <div class="bgCopy">Or is it?</div>
+            </div>
+            <div id="trigger" onclick="tapOrClick(event)">
+                <div id="front">
+                    <div id="didYou">Thats all folks!</div>
+                </div>
+                <div class="back"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
