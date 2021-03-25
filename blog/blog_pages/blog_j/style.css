@@ -1,0 +1,98 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
+    background: url(images/seamless-checkered-paper-background.png) center center / cover no-repeat;
+}
+
+.text {
+    text-align: center;
+}
+
+.small-img {
+    width: 10vw;
+}
+
+#bird {
+    position: absolute;
+    animation: linear infinite alternate;
+    animation-duration: 5s;
+    animation-name: fly;
+}
+
+@keyframes fly {
+    0% {
+        left: 15vw;
+    }
+    50% {
+        left: 80vw;
+        transform: rotateY(180deg);
+    }
+    100% {
+        left: 15vw;
+    }
+}
+
+#dog {
+    position: absolute;
+    animation: infinite alternate;
+    animation-duration: 1s;
+    animation-name: roll;
+    top: 10vh;
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(20deg);
+    }
+    /* 50% {
+        transform: rotate(0deg);
+    }
+    70% {
+        transform: rotate(120deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    } */
+}
+
+#comic {
+    width: 30vw;
+    margin-left: 30vw;
+    transition: 3s;
+}
+
+#comic:hover {
+    transform: scale(2.5);
+}
+
+#rabbit {
+    position: absolute;
+    animation: linear infinite alternate;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-timing-function: ease;
+    margin-left: 80vw;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+    30% {
+        transform: scale(.9, 1.1) translateY(-100px);
+    }
+   
+    50% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
