@@ -78,7 +78,7 @@ function changeTextBack4(x) {
 function promptMsg() {
   var word = prompt("What does the world need more of?");
   if (word.toLowerCase() === "mice") {
-    $("#body").fadeOut(7000);
+    $('#body').fadeOut(7000);
     // remove hover effects
     setTimeout(removeHover, 7000);
     // change page completely 
@@ -86,7 +86,7 @@ function promptMsg() {
     setTimeout(changeAllImages, 7000);
     setTimeout(changeAllColors, 7000);
     setTimeout(changeAllText, 7000);
-    $("#body").fadeIn(7000);
+    $('#body').fadeIn(7000);
   }
 }
 
