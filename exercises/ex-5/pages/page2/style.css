@@ -1,7 +1,3 @@
-/* spaces 
-between blocks :  3vh; 
-top of page: 3vh */
-
 /* universal styles  */
 
 @font-face {
@@ -14,12 +10,12 @@ top of page: 3vh */
     src: url(./assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf);
 }
 
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+@font-face {
+    font-family: Witches;
+    src: url(./assets/fonts/the-witches-font/TheWitches-mLo59.ttf);
+}
 
-html, body {
+body {
     height: 100vh;
     background-color: #E9FFFD;
     font-family: EB-Garamond;
@@ -33,33 +29,28 @@ section {
     height: 100vh;
 }
 
-/* section::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 80%;
-} */
-
 .contents {
     padding-top: 3vh;
     width: 80vw;
     margin: 0 auto;
 }
 
-h1 {
+.font-change {
     font-family: Niconne;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 5vw;
-    /* line-height: 1em; */
-    text-align: center;
+}
+
+.red-font {
     color: #DA2B3A;
 }
 
+h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    text-align: center;
+}
+
 h2 {
-    font-family: Niconne;
     font-size: 3vw;
     text-align: center;
     color: #000000;
@@ -69,22 +60,16 @@ h2 {
 h3 {
     font-size: 1.7vw;
     text-align: center;
-    color: #DA2B3A;
-    /* margin: 3vh 3vh; */
 }
 
 .demo a {
     position: absolute;
     bottom: 1vh;
     left: 50vw;
-    /* background-color: #DA2B3A; */
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    /* font: normal 400 20px/1 'Josefin Sans', sans-serif; */
-    /* letter-spacing: .1em; */
-    /* text-decoration: none; */
     transition: opacity .3s;
 }
 
@@ -97,13 +82,10 @@ section a {
 }
 
 section a span {
-    /* background-color: #DA2B3A; */
     position: absolute;
     top: 0;
-    /* left: 0vw; */
     width: 1.7vw;
     height: 1.7vw;
-    /* margin-left: -12px; */
     border-left: 3px solid rgb(0, 0, 0);
     border-bottom: 3px solid rgb(0, 0, 0);
     -webkit-transform: rotate(-45deg);
@@ -117,13 +99,8 @@ section a span {
     background: url(assets/images/sunny.jpg) center center / cover no-repeat;
 }
 
-#section01 h3 {
-    /* margin: 5% 5%;s */
-}
-
 #right_text {
     margin-left: 60vw;
-    font-family: Niconne;
     font-size: 1.7vw;
     text-align: center;
     color: #F15CAE;
@@ -133,9 +110,7 @@ section a span {
 
 #first_grid {
     display: grid;
-    /* grid-template-columns: repeat(3, 33%); */
     grid-template-rows: 1.3fr 1.3fr 1fr;
-    /* height: 100%; */
     row-gap: 3vh;
 }
 
@@ -146,27 +121,13 @@ section a span {
 }
 
 .more_button {
-    /* position: absolute; */
-    /* left: 36.68%;
-    right: 36.94%;
-    top: 76.02%;
-    bottom: 8.77%; */
     background: #F15CAE;
     width: 15vw;
     height: 5vh;
     border: none;
     margin: 3vh 3vh;
-    /* background: #936C43; */
-    /* box-shadow: 0px 4px 4px #F15CAE; */
     transition: 1s;
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
-    /* font  */
-    /* font-style: normal;
-    font-weight: normal; */
-    /* font-size: 14px;
-    line-height: 18px; */
-    /* text-align: center;
-    color: #000000; */
+    font-family: EB-Garamond;
 }
 
 .more_button:hover {
@@ -177,72 +138,54 @@ section a span {
     display: grid;
     grid-template-columns: 70% 30%;
     height: 100%;
-    /* row-gap: 2%; */
 }
 
 #flower-images {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     height: 100%;
-    /* row-gap: 2em; */
 }
 
 .flower-img {
     height: 10em;
-    /* height: 10%; */
 }
 
 /* section 3  */
 
 #top-text {
-    /* background-color: #DA2B3A; */
     text-align: center;
     line-height: 1vh;
-}
-
-#weird {
-    font-family: Niconne;
 }
 
 #p1, #p2 {
     font-size: 1.7vw;
 }
 
-#p1 {
-    font-family: Niconne;
-}
-
 #h33 {
     padding-top: 3vh;
-    /* background-color: #DA2B3A; */
 }
 
 #images3 {
-    /* background-color: #DA2B3A; */
     margin-top: 1vh;
     display: flex;
     justify-content: flex-end;
-    /* align-items: center;x */
 }
 
 #witch {
     position: absolute;
-    /* width: 24w; */
     height: 15vh;
     left: 75vw;
     top: 75vh;
     display: none;
-    /* background: url(102-1024482_halloween-witch-2-little-book-of-mother-in.png); */
 }
 
 #girl {
-    /* position: absolute; */
     width: 300px;
     height: 200.11px;
-    /* mix-blend-mode: difference; */
-    /* left: 57px;
-    top: 1948px; */
-    /* background: url(pale-606.png); */
+}
+
+#girl:hover {
+    mix-blend-mode: difference;
 }
 
 /* fourth section  */
@@ -252,16 +195,15 @@ section a span {
 }
 
 #invite {
-    /* position: absolute;
-    width: 379px;
-    height: 217px;
-    left: 18px;
-    top: 2326px; */
     background: #DA2B3A;
     border-radius: 15px;
     color: white;
     text-align: center;
     padding: 1%;
+}
+
+#span-text:hover {
+    font-family: Witches;
 }
 
 #mice {
@@ -275,6 +217,10 @@ section a span {
     height: 4vh;
     animation: linear infinite alternate;
     animation-duration: 1s;
+}
+
+.mouse:hover {
+    mix-blend-mode: exclusion;
 }
 
 #mouse1 {
@@ -364,4 +310,8 @@ section a span {
     border-radius: 15px;
     color: white;
     padding: 1%;
+}
+
+#end {
+    cursor: pointer;
 }
