@@ -15,16 +15,27 @@ function changeTextBack1(x) {
   x.innerHTML = "“One child a week is fifty-two a year. Love them and feed them and make them live fair”";
 }
 
+// text change in post 
+function changeTextPost(x) {
+  x.innerHTML = "The other day a witch reported to us that she failed to catch one of the children in her neighborhood. Below we have the full exchange of what she tried, and we will use it as a learning opportunity. She began by saying, “Come down out of that tree, little boy, and...";
+}
+
+function changeTextBackPost(x) {
+  x.innerHTML = "Kindness can be described as the value of being polite, compassionate, and thoughtful.Unconditional love, tenderness, comfort, concern, and support are words associated with skindness. These are the ways to speak to those beloved, small ...";
+}
+
 // flower image change 
 function changeImage(x) {
-  $(x).attr('src', 'assets/images/dead-flower.png');
-  x.style.height = "10em";
+  x.setAttribute('src', 'assets/images/dead-flower.png');
+  x.style.marginTop = "3em"
+  x.style.height = "6em";
   x.style.width = "5em";
 }
 
 function changeImageBack(x) {
-  $(x).attr('src', 'assets/images/flower.png');
+  x.setAttribute('src', 'assets/images/flower.png');
   x.style.height = "10em";
+  x.style.marginTop = "0em"
 }
 
 // text change 2 
@@ -67,15 +78,15 @@ function changeTextBack4(x) {
 function promptMsg() {
   var word = prompt("What does the world need more of?");
   if (word.toLowerCase() === "mice") {
-    $("#body").fadeOut(10000);
+    $("#body").fadeOut(7000);
     // remove hover effects
-    setTimeout(removeHover, 10000);
+    setTimeout(removeHover, 7000);
     // change page completely 
-    setTimeout(changeAllFont, 10000);
-    setTimeout(changeAllImages, 10000);
-    setTimeout(changeAllColors, 10000);
-    setTimeout(changeAllText, 10000);
-    $("#body").fadeIn(10000);
+    setTimeout(changeAllFont, 7000);
+    setTimeout(changeAllImages, 7000);
+    setTimeout(changeAllColors, 7000);
+    setTimeout(changeAllText, 7000);
+    $("#body").fadeIn(7000);
   }
 }
 
@@ -119,7 +130,8 @@ function changeAllImages() {
     // disable hover flower change 
     // flower.style.pointerEvents = "none";
     $(flower).attr('src', 'assets/images/dead-flower.png');
-    flower.style.height = "10em";
+    flower.style.marginTop = "3em"
+    flower.style.height = "6em";
     flower.style.width = "5em";
   }
 
@@ -241,6 +253,8 @@ function changeAllText() {
   document.getElementById("recipe-title").innerHTML = "She's Done it Again!";
   document.getElementById("recipe-description").innerHTML = "Here is the BRILLIANT recipe for the  GENIUS plan our GREATEST has developed!";
   document.getElementById("ingredients").innerHTML = "• 1 wrong end of telescope <br> •	45 brown mice <br> • 3 tbsp hair oil	<br> • 1/2 cup frog juice <br> • 1 alarm clock <br> • 1 yolk of gruntle’s egg <br> • 1 claw of a crab-crunchher	<br> • 1 beak of a blabbersnitch	<br> •	1 snout of a grobblesquirt <br> •	1 tongue of a catspringer ";
-  document.getElementById("end").innerHTML = "Witches of the World"
-
+  document.getElementById("end").style.fontSize = "1vw";
+  document.getElementById("end").style.marginTop = "5vh";
+  document.getElementById("end").innerHTML = "Witches of the World";
+  
 }
