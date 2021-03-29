@@ -249,7 +249,7 @@ function changeAllText() {
   document.getElementById("order").innerHTML = "Be there.";
   document.getElementById("post_text4").innerHTML = "The GREATEST GENIUS among us has once again developed the most BRILLIANTLY CUNNING plan to rid us of those pesky little dog-poo smelling brats! For those of us lucky enough attend the meeting (and woe to those who don’t) , we will have a ...";
   // fifth and final section 
-  document.getElementById("title-5").innerHTML = "Bonus: Formula <span style=\"font-family: EB-Garamond;\">86</span> Delayed Action Mouse-Maker Recipe!";
+  document.getElementById("title-5").innerHTML = "Bonus<span style=\"font-family: EB-Garamond;\">:</span> Formula <span style=\"font-family: EB-Garamond;\">86</span> Delayed Action Mouse-Maker Recipe!";
   document.getElementById("recipe-title").innerHTML = "She's Done it Again!";
   document.getElementById("recipe-description").innerHTML = "Here is the BRILLIANT recipe for the  GENIUS plan our GREATEST has developed!";
   document.getElementById("ingredients").innerHTML = "• 1 wrong end of telescope <br> •	45 brown mice <br> • 3 tbsp hair oil	<br> • 1/2 cup frog juice <br> • 1 alarm clock <br> • 1 yolk of gruntle’s egg <br> • 1 claw of a crab-crunchher	<br> • 1 beak of a blabbersnitch	<br> •	1 snout of a grobblesquirt <br> •	1 tongue of a catspringer ";
