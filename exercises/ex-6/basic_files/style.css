@@ -1,0 +1,176 @@
+/* default css from jquery ui */
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    /* margin: 50px; */
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #BBC8EE;
+}
+
+.demoHeaders {
+    margin-top: 2em;
+}
+
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+
+#icons {
+    margin: 0;
+    padding: 0;
+}
+
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+
+select {
+    width: 200px;
+}
+
+/* css from codepen  puzzle */
+
+.ref_imgWrap {
+    max-width: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 1em;
+    position: relative;
+}
+
+.ref_imgWrap img {
+    max-width: 100%;
+    float: left;
+    height: auto;
+}
+
+.contRofl_clr, .wrap {
+    width: 100%;
+    float: left;
+}
+
+.restartPuzzleWrap {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.restart_puzzleX999 {
+    padding: 1.6em;
+    display: inline-block;
+    background: #22952D;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.35);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.35);
+    box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.35);
+}
+
+.snappuzzle-piece {
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.35);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.35);
+    box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.35);
+}
+
+/* required snapPuzzle styles */
+
+.puzzleX999_paddedWrap {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.puzzleX999_imgWrap {
+    max-width: 560px;
+    padding: 5%;
+    padding-top: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.puzzleX999_imgWrap img {
+    max-width: 100%;
+    float: left;
+    height: auto;
+}
+
+.puzzleX999_relWrap {
+    position: relative;
+    display: block;
+    max-width: 500px;
+    float: left;
+}
+
+#puzzleX999_Main {
+    width: 200%;
+    float: left;
+}
+
+.snappuzzle-wrap {
+    position: relative;
+    display: block;
+}
+
+/*snappuzzle-pile { position: relative; }*/
+
+.snappuzzle-piece {
+    cursor: move;
+}
+
+.snappuzzle-slot {
+    position: absolute;
+    background: #fff;
+    opacity: .8;
+}
+
+.snappuzzle-slot-hover {
+    background: #eee;
+}
+
+/* custom css  */
+
+h1, h2 {
+    color: #22952D;
+    text-align: center;
+}
+
+p {
+    color: #0B1A50;
+}
+
+button {
+    width: 10vw;
+    margin-left: 35vw;
+}
