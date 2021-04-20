@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Dumbledore;
+    src: url(../fonts/dumbledor-font/Dumbledor1-8a1n.ttf);
+}
+
+@font-face {
+    font-family: AdventPro;
+    src: url(../fonts/Advent_Pro/AdventPro-Regular.ttf);
+}
+
+body {
+    background: linear-gradient(180deg, #0D0D0D 0%, #5A1903 79.17%) no-repeat;
+    height: 100vh;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Dumbledore;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+#sound-icon {
+    height: 30px;
+    cursor: pointer;
+    /* padding-top: 10px; */
+}
+
+.text {
+    display: none;
+}
+
+p {
+    font-family: AdventPro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+/* glowing text  */
+
+.proceed {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    /* margin-top: 25vh; */
+    cursor: pointer;
+    -webkit-animation: glow 2s ease-in-out both infinite;
+    animation: glow 2s ease-in-out both infinite;
+}
+
+@-webkit-keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 10px snow, 0 -25px 50px #5a1903, -25px 25px 50px #f2a03d, 25px 25px 50px #5a1903;
+    }
+    33% {
+        text-shadow: 0 0 10px snow, 0 -25px 50px #a5431e, -25px 25px 50px #5a1903, 25px 25px 50px #a5431e;
+    }
+    66% {
+        text-shadow: 0 0 10px snow, 0 -25px 50px #f2a03d, -25px 25px 50px #a5431e, 25px 25px 50px #f2a03d;
+    }
+}
+
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 10px snow, 0 -25px 50px #5a1903, -25px 25px 50px #f2a03d, 25px 25px 50px #5a1903;
+    }
+    33% {
+        text-shadow: 0 0 10px snow, 0 -25px 50px #a5431e, -25px 25px 50px #5a1903, 25px 25px 50px #a5431e;
+    }
+    66% {
+        text-shadow: 0 0 10px snow, 0 -25px 50px #f2a03d, -25px 25px 50px #a5431e, 25px 25px 50px #f2a03d;
+    }
+}
