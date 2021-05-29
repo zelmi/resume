@@ -223,14 +223,19 @@ h2 {
 .rotating_square {
 	width: 50%;
 	height: 100px;
-	animation: roll 3s infinite;
-	transform: rotate(30deg);
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #3190A6;
+	/* background-color: #3190A6; */
+	border: 1px solid #3190A6;
 	margin-left: 45%;
 	margin-top: 15%;
+}
+
+.rotating_square:hover {
+	animation: roll 3s infinite;
+	transform: rotate(30deg);
 }
 
 @keyframes roll {
@@ -280,7 +285,7 @@ h4 {
 	text-align: center;
 }
 
-h4, input[type=text], select, textarea, #submit-button {
+h4, input[type=text], input[type=email], select, textarea, #submit-button {
 	font-family: Courier New;
 	font-style: normal;
 	font-weight: normal;
@@ -461,7 +466,7 @@ p {
 box-shadow: 0px 0px 3px 5px #f2e1f2; 
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #66199d80;

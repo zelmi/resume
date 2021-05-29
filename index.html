@@ -17,15 +17,10 @@
         <!-- first section  -->
         <section id="intro">
             <div id="left">
-                <nav>
-                    <a class="nav-elements" href="exercises/index.html">Exercises</a>
-                    <a class="nav-elements" href="projects/index.html">Projects</a>
-                    <a class="nav-elements" href="blog/index.html">Blogs</a>
-                </nav>
                 <h1>Zehur Elmi</h1>
                 <div class="css-typing">
-                    <h2>ART 3001</h2>
-                    <!-- <h2>Designer.</h2> -->
+                    <h2>Developer.</h2>
+                    <h2>Designer.</h2>
                 </div>
             </div>
             <div id="image_grid">
@@ -260,10 +255,11 @@
                 <div id="contact_form">
                     <h3>Contact Me</h3>
                     <div class="container">
-                        <form action="">
-                            <input type="text" id="fname" name="firstname" placeholder="Your name">
+                        <form action="https://formspree.io/f/xjvjwrwv" method="POST">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name" required="">
+                            <input type="email" id="email_address" name="_replyto" placeholder="Your email" required="">
                             <textarea id="subject" name="subject" placeholder="Your message"
-                                style="height:200px"></textarea>
+                                style="height:200px" required=""></textarea>
                             <div id="submit-area">
                                 <input id="submit-button" type="submit" value="Submit">
                             </div>
